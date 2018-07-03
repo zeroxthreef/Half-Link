@@ -1,10 +1,12 @@
 ## halflife-link
 
+![alt text](https://raw.githubusercontent.com/zeroxthreef/Half-Link/hlogo.png)
+
 Just a really simple set of instructions for cross compiling [Xash3D](https://github.com/FWGS/xash3d) to the steam link to play Half-Life. The people who make Xash3D did all of the hard work here (Xash3D is super impressive, I really recommend taking a look at the repo).
 
 ## Instructions
 
-First clone the [Steam Link SDK repo](https://github.com/ValveSoftware/steamlink-sdk), and then go to the root of the "steamlink-sdk" directory and create a folder called whatever you want. In my example, I'm just going to use "halflife".
+First clone the [Steam Link SDK](https://github.com/ValveSoftware/steamlink-sdk), and then go to the root of the "steamlink-sdk" directory and create a folder called whatever you want. In my example, I'm just going to use "halflife".
 ```
 cd steamlink-sdk
 mkdir halflife
