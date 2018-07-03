@@ -1,6 +1,6 @@
 ## halflife-link
 
-![alt text](https://raw.githubusercontent.com/zeroxthreef/Half-Link/hlogo.png)
+![alt text](https://raw.githubusercontent.com/zeroxthreef/Half-Link/master/hlogo.png)
 
 Just a really simple set of instructions for cross compiling [Xash3D](https://github.com/FWGS/xash3d) to the steam link to play Half-Life. The people who make Xash3D did all of the hard work here (Xash3D is super impressive, I really recommend taking a look at the repo).
 
