@@ -1,4 +1,4 @@
-## halflife-link
+## Half-Life-Link
 
 ![alt text](https://raw.githubusercontent.com/zeroxthreef/Half-Link/master/hlogo.png)
 
