@@ -47,3 +47,7 @@ Then after all this, copy what the build_steamlink.sh says to do and it should b
 
 
 NOTE: The little hlogo.png image I made and the steam link model are public domain. Everything written here (that I did) is public domain.
+
+## Video
+
+[![video](https://img.youtube.com/vi/6_zFMW8d-k4/0.jpg)](https://www.youtube.com/watch?v=6_zFMW8d-k4)
