@@ -6,10 +6,10 @@ Just a really simple set of instructions for cross compiling [Xash3D](https://gi
 
 ## Instructions
 
-First clone the [Steam Link SDK](https://github.com/ValveSoftware/steamlink-sdk), and then go to the root of the "steamlink-sdk" directory and create a folder called whatever you want. In my example, I'm just going to use "halflife".
+First clone the [Steam Link SDK](https://github.com/ValveSoftware/steamlink-sdk), and then go to the root of the "steamlink-sdk" directory and clone this repo.
 ```
 cd steamlink-sdk
-mkdir halflife
+git clone https://github.com/zeroxthreef/Half-Link.git
 ```
 
 You then need to run ``source setenv.sh`` in the sdk root.
@@ -28,12 +28,11 @@ set(CMAKE_CXX_FLAGS_INIT "--sysroot=${CMAKE_SYSROOT} -marm -mfloat-abi=hard -DLI
 
 (It was the quickest hack to fix things not compiling. I know there are better ways, and I'm just writing what I did. You'll definitely want to change it back after building)
 
-After that, copy your half-life game files to your halflife folder (or whatever you called it). To quote the Xash3D building and running wiki(dont run this, im just quoting), "Copy valve folder from Half-Life: cp -r $HOME/.steam/steam/steamapps/common/Half-Life/valve $HOME/Games/Xash3D", but don't use that command because it will copy to the wrong place. Do``cp -r $HOME/.steam/steam/steamapps/common/Half-Life/valve ."``(yes, keep the '.'). If that isn't where your halflife files are located, copy from the proper directory instead.
+After that, copy your half-life game files to your Half-Link folder. To quote the Xash3D building and running wiki(dont run this, im just quoting), "Copy valve folder from Half-Life: cp -r $HOME/.steam/steam/steamapps/common/Half-Life/valve $HOME/Games/Xash3D", but don't use that command because it will copy to the wrong place. Do``cp -r $HOME/.steam/steam/steamapps/common/Half-Life/valve ."``(yes, keep the '.'). If that isn't where your halflife files are located, copy from the proper directory instead.
 
 Then, in the sdk root:
 
 ```
-cd halflife
 git clone https://github.com/FWGS/xash3d.git --recursive
 git clone https://github.com/FWGS/hlsdk-xash3d.git --recursive
 git clone https://github.com/FWGS/nanogl.git xash3d/engine/nanogl
