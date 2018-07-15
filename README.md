@@ -33,6 +33,7 @@ After that, copy your half-life game files to your Half-Link folder. To quote th
 Then, in the sdk root:
 
 ```
+cd Half-Link
 git clone https://github.com/FWGS/xash3d.git --recursive
 git clone https://github.com/FWGS/hlsdk-xash3d.git --recursive
 git clone https://github.com/FWGS/nanogl.git xash3d/engine/nanogl
